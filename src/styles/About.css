@@ -1,0 +1,44 @@
+/* About us page CSS Start */
+.about-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+  }
+  
+  .about .about-left h1 {
+    font-size: 60px;
+    color: rgb(73, 73, 73);
+    line-height: 70px;
+  }
+  
+  .about .about-left h1 span {
+    font-size: 65px;
+    border-radius: 15px;
+    color: orange;
+  }
+  
+  .about .about-left h4 {
+    font-size: 22px;
+    padding-top: 10px;
+    font-style: italic;
+  }
+  
+  .about .about-left h4 span {
+    color: #d97919;
+  }
+  
+  .about .about-right img {
+    width: 450px;
+  }
