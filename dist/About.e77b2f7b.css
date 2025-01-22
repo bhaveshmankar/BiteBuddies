@@ -1,0 +1,44 @@
+.about-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 90%;
+  display: flex;
+}
+
+.about {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  display: flex;
+}
+
+.about .about-left h1 {
+  color: #494949;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.about .about-left h1 span {
+  color: orange;
+  border-radius: 15px;
+  font-size: 65px;
+}
+
+.about .about-left h4 {
+  padding-top: 10px;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.about .about-left h4 span {
+  color: #d97919;
+}
+
+.about .about-right img {
+  width: 450px;
+}
+/*# sourceMappingURL=About.e77b2f7b.css.map */

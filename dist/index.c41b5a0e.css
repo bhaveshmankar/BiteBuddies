@@ -1,0 +1,360 @@
+.shimmer-search-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.shimmer-search-bar {
+  background-color: #ccc;
+  border: 1px solid #000;
+  width: 169px;
+  height: 21px;
+}
+
+.shimmer-search-button {
+  background-color: #ccc;
+  border: 1px solid #000;
+  width: 57px;
+  height: 21px;
+}
+
+.shimmer-body {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.shimmer-card {
+  background-color: #ccc;
+  border: 1px solid #000;
+  width: 200px;
+  height: 360px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.shimmer-header {
+  width: 727px;
+  height: 114px;
+}
+
+.contact-container {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+  display: flex;
+  overflow-y: hidden;
+}
+
+.contact-container .contact-left {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.contact-container .contact-left img {
+  object-fit: cover;
+  width: 90%;
+}
+
+.contact-container .contact-right {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.contact-container .contact-right h1 {
+  font-size: 3rem;
+}
+
+.contact-container .contact-right form {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+}
+
+.contact-container .contact-right form input, .contact-container .contact-right form textarea {
+  box-sizing: border-box;
+  background-color: #0000;
+  border: 1px solid #818181;
+  border-radius: 5px;
+  outline: none;
+  width: 30vw;
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+  box-shadow: 1px 2px 4px #00000014;
+}
+
+.contact-container .contact-right form input:focus, .contact-container .contact-right form textarea:focus {
+  border: 1px solid #ff8c00;
+}
+
+.contact-container .contact-right form button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #ff8c00;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  box-shadow: 1px 2px 4px #00000014;
+}
+
+.contact-container .contact-right form button:hover {
+  background-color: #006400;
+}
+
+.error-page {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  height: calc(100vh - 40px);
+  margin: 20px 10px;
+  display: flex;
+}
+
+.error-image {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.error-image > img {
+  width: 90%;
+}
+
+.error-details {
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  display: flex;
+}
+
+.error-back-home {
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  display: flex;
+}
+
+.error-back-home > .link-name {
+  color: var(--white);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  background-color: #e46f20;
+  padding: 10px;
+}
+
+.error-back-home > .link-name:hover {
+  background-color: var(--btn-hover-color);
+  transition: all .3s;
+}
+
+.menu, .shimmer-menu {
+  width: 60%;
+}
+
+.restaurant-header, .shimmer-menu .shimmer-card {
+  color: #fff;
+  background-color: #000;
+  border-radius: 10px;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 20px;
+  display: flex;
+  overflow: hidden;
+}
+
+.restaurant-header img {
+  object-fit: cover;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  width: 250px;
+  height: 20rem;
+  margin-right: 40px;
+}
+
+.restaurant-header-details {
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  display: flex;
+}
+
+.restaurant-header-details h1 {
+  font-size: 20px;
+}
+
+.restaurant-header h3 {
+  color: #bcbcbc;
+}
+
+.restaurant-header p {
+  color: #c1b9b9;
+  font-size: 15px;
+}
+
+.rating-time {
+  color: #fff;
+  gap: 20px;
+  font-size: 16px;
+  display: flex;
+}
+
+.rating {
+  font-size: 20px;
+  display: flex;
+}
+
+.restaurant-header .rating-logo {
+  border-radius: 50%;
+  margin-right: 5px;
+  padding: 2px;
+  font-size: 20px;
+}
+
+.menu-items, .shimmer-menu .shimmer-card {
+  border-bottom: 1px solid #5b5b5b;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 40px 0;
+  display: flex;
+}
+
+.menu-items .left {
+  flex-direction: column;
+  gap: 5px;
+  display: flex;
+}
+
+.left .rating span {
+  color: #484747;
+}
+
+.menu-items .right {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.menu-items .right img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 150px;
+  height: 120px;
+}
+
+.menu-items h2, h4, p {
+  margin: 10px;
+}
+
+.right .add-btn {
+  color: green;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: background-color .3s;
+  position: relative;
+  bottom: 10px;
+}
+
+.right .add-btn:hover {
+  color: #fff;
+  background-color: #e46f20;
+  transition: all .3s;
+}
+
+.shimmer-menu .shimmer-card {
+  background-color: #d7d6d6;
+  height: 200px;
+}
+
+:root {
+  --green: #28a745;
+  --red: #dc3545;
+}
+
+.rating-logo {
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.login-container {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.login-form {
+  z-index: 1;
+  text-align: center;
+  background: #ffaf60;
+  border-radius: 10px;
+  width: 50%;
+  max-width: 380px;
+  padding: 25px 40px;
+  position: relative;
+}
+
+.login-form input {
+  box-sizing: border-box;
+  background: #f2f2f2;
+  border: 0;
+  border-radius: 5px;
+  outline: 0;
+  width: 100%;
+  margin: 0 0 15px;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.login-form input:focus {
+  background: #f2f2f2;
+}
+
+.login-form button {
+  text-transform: uppercase;
+  color: #fff;
+  width: 100%;
+  -webkit-transition: all .3 ease;
+  transition: all .3 ease;
+  cursor: pointer;
+  background: #4b6cb7;
+  border: 0;
+  border-radius: 5px;
+  outline: 0;
+  padding: 15px 40px;
+  font-size: 14px;
+}
+
+.login-form button:active {
+  background: #395591;
+}
+
+.login-form span {
+  color: #4b6cb7;
+  margin-bottom: 25px;
+  font-size: 40px;
+  display: block;
+}
+
+.login-form p.error {
+  text-align: left;
+  color: red;
+  margin: 0 0 10px 10px;
+  font-size: 13px;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */
