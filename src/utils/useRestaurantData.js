@@ -59,6 +59,7 @@
 
 import { useState, useEffect } from "react";
 import restrautList from "./mockData";
+import restrautList from './mockData';
 
 const useRestaurantData = () => {
     const [filteredRestaurants, setFilteredRestaurants] = useState([]);
@@ -111,7 +112,7 @@ const useRestaurantData = () => {
       }
     
     }
-
+   
     return [allRestaurants, filteredRestaurants, setFilteredRestaurants];
 }
 
