@@ -42,7 +42,7 @@ const useRestaurantData = () => {
       const longitude = 77.62448069999999;
     
       try {
-        const response = await fetch(`http://localhost:3000/api/restaurants?lat=`+latitude+`&lng=`+longitude+`&page_type=DESKTOP_WEB_LISTING`);
+        const response = await fetch(`https://foodfire-server-id4j.onrender.com/api/restaurants?lat=`+latitude+`&lng=`+longitude+`&page_type=DESKTOP_WEB_LISTING`);
         const data = await response.json();
         setAllRestaurants(data?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
         setFilteredRestaurants(data?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
